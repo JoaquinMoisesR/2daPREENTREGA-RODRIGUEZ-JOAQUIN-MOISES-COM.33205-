@@ -15,6 +15,8 @@
     box-sizing: border-box;
 }
 
+/* SECTOR INDEX */
+
 .header-flex {
     background-color: #F56476;
     display: flex;
@@ -175,6 +177,53 @@ select {
 .footer-contacto a {
     color: black;
     text-decoration: underline;
+}
+
+/* CSS SECTOR SERVICIOS */
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.servicio-uno img {
+    width: 50vw;
+    padding: 0.5rem;
+    position: relative;
+    top: 2px;
+}
+
+.servicio-uno h2 {
+    font-size: 27px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.servicio-uno {
+    font-size: 20px;
+    text-align: center;
+    background-color: #e43f6e94;
+}
+
+.servicio-dos img {
+    width: 48vw;
+    height: 83vh;
+    padding: 0.4rem;
+    position: relative;
+    top: 4px;
+}
+
+.servicio-dos h2 {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.servicio-dos {
+    font-size: 20px;
+    text-align: center;
+    background-color: #e43f6e94;
 }
 
 /* CSS GALERIA PARA RESPONSIVE 500 */
