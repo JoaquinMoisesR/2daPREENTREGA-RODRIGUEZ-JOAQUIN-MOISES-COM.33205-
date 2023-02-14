@@ -130,32 +130,32 @@ a {
 }
 
 /* CSS-SECTOR CONTACTO */
-.contacto-css{
-    background-color:#008DD5 ;
+.contacto-css {
+    background-color: #008DD5;
     font-size: 30px;
     height: 100%;
     padding: 5rem;
 }
 
-input{
+input {
     width: 20%;
     border-radius: 50px;
     color: #eb3705;
     font-size: 20px;
 }
 
-select{
+select {
     width: 15%;
     font-size: 15px;
     color: #ce0b0b;
 }
 
-.footer-contacto{
+.footer-contacto {
     background-color: #DFBBB1;
     height: 160px;
 }
 
-.footer-contacto ol{
+.footer-contacto ol {
     list-style: none;
     font-size: 20px;
     display: flex;
@@ -163,7 +163,7 @@ select{
     padding: 3rem;
 }
 
-.footer-contacto h3{
+.footer-contacto h3 {
     text-decoration: none;
     color: rgba(184, 69, 69, 0.877);
     display: flex;
@@ -175,6 +175,31 @@ select{
 .footer-contacto a {
     color: black;
     text-decoration: underline;
+}
+
+/* CSS GALERIA PARA RESPONSIVE 500 */
+
+.galeria-uno img {
+    height: 54.4vh;
+}
+
+.galeria-uno h2 {
+    text-decoration: underline;
+    background-color: aquamarine;
+}
+
+.galeria-dos img {
+    width: 100vw;
+}
+
+.galeria-dos h2 {
+    text-decoration: underline;
+    background-color: aquamarine;
+}
+
+.galeria-tres h2 {
+    text-decoration: underline;
+    background-color: aquamarine;
 }
 
 /* MOBILE FIRST-RESPONSIVE 500 - LAPTOP 1440 - PC ESCRITORIO */
@@ -269,4 +294,58 @@ select{
         font-size: 30px;
     }
 
+    .galeria-uno img {
+        height: 111.4vh;
+    }
+
+    .galeria-uno {
+        font-size: 25px;
+    }
+
+    .galeria-dos {
+        font-size: 25px;
+    }
+
+    .galeria-dos img {
+        width: 100vw;
+    }
+
+    .galeria-tres {
+        font-size: 22px;
+    }
+
+    .galeria-tres iframe {
+        width: 1022px;
+        height: 800px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .galeria-uno img {
+        width: 100vw;
+    }
+
+    .galeria-uno {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .galeria-uno h2 {
+        font-size: 30px;
+    }
+
+    .galeria-dos img {
+        height: 1000px;
+        width: 800px;
+        margin-left: 10rem;
+    }
+
+    .galeria-dos {
+        text-align: center;
+    }
+
+    .galeria-tres {
+        text-align: center;
+    }
 }
